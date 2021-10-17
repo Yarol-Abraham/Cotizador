@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Helvetica";
+  letter-spacing: 0.2rem;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  transition: 650ms all ease-in-out;
+}
+
+.header {
+  background: linear-gradient(to right, #0178bc 0%, #00bdda 100%);
+}

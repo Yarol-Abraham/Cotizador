@@ -1,0 +1,17 @@
+{
+  "name": "cotizador",
+  "version": "1.0.0",
+  "description": "Cotizador",
+  "main": "index.js",
+  "scripts": {
+    "start:sass": "parcel ./src/sass/main.scss",
+    "start:js": "parcel ./src/js/index.js",
+    "build:sass": "parcel build ./src/sass/main.scss --dist-dir ./dist",
+    "build:js": "parcel build ./src/js/index.js --dist-dir ./dist"
+  },
+  "author": "Yarol Abraham Choc Reyes",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
