@@ -12,7 +12,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.2rem;
   background: #fff;
 }
@@ -25,4 +25,8 @@ img {
 
 .header {
   background: linear-gradient(to right, #0178bc 0%, #00bdda 100%);
+}
+
+.header-img {
+  width: 80%;
 }

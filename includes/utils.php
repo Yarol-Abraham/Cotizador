@@ -1,6 +1,5 @@
 <?php
 
-
 function verifcarSesion()
 {
     session_start();
