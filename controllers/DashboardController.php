@@ -7,7 +7,7 @@ use MVC\Router;
 class DashboardController
 {
 
-    static public function dashboard(Router $router)
+    static public function index(Router $router)
     {
         $resumen = [
             "cotizaciones" => [
@@ -37,9 +37,9 @@ class DashboardController
             ]
         ];
 
-        $router->render("dashboard/dashboard", [
+        $router->render("pages/dashboard", [
             "page" => "Dashboard",
-            "active" => true,
+            "active" => "Dashboard",
             "resumen" => $resumen
         ]);
     }

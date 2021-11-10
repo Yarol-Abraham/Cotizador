@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header p-3">
+    <header class="header p-4">
         <div class="container">
             <div class="row d-flex flex-row">
                 <div class="col-6 d-flex justify-content-start align-items-center">
